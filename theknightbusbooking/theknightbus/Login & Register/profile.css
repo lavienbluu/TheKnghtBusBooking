@@ -1,0 +1,38 @@
+@import "welcome_style.css";
+
+.box{
+    width: 450px;
+    height: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto; 
+    margin-top: 5%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+
+}
+
+.box .login-email .input-group input {
+    width: 300px;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    outline: none;
+    transition: .3s;
+}
+
+.box .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+

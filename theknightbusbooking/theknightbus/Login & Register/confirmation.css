@@ -1,0 +1,43 @@
+@import "welcome_style.css";
+
+.box{
+    width: auto;
+    height: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto; 
+    margin-top: 5%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+	border-collapse: collapse;
+	margin-left: 20px;
+	width: 100%;
+}
+
+tr{
+    border: 1px solid black;
+}        
+
+th{
+    background-color: #422539;
+    border: 1px solid black;
+    color: white;
+    font-weight: 450;
+    padding: 8px;
+}
+
+td{
+    border: 1px solid black;
+    color: black;
+    font-weight: 400;
+    padding: 7px;
+    cursor: pointer;
+}
+
+td:hover{
+    color: #6c5ce7;
+}

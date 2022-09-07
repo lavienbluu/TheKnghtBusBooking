@@ -1,0 +1,5 @@
+Running the docker:
+docker run --rm -p 80:80 -v C:/theknightbus:/www -d digitake/xampp
+
+Background Picture, "The Knight Bus" is illustrated by Jim Kay 
+from a book called "The Illustrated Edition of Harry Potter and the Prisoner of Azkaban"
